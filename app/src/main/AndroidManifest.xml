@@ -24,7 +24,8 @@
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".GFMActivity" />
-        <activity android:name=".FBFActivity"></activity>
+        <activity android:name=".FBFActivity" />
+        <activity android:name=".ChildActivity1"></activity>
     </application>
 
 </manifest>
