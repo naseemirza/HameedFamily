@@ -57,4 +57,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
         android:text="Click Me" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+
+        android:layout_marginTop="10dp"
+        android:text="(Late Janab Muhd. Hameed)" />
 </RelativeLayout>

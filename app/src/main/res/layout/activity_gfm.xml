@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:textStyle="bold"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorAccent"
         android:textSize="25dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="111dp"
@@ -52,7 +52,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorAccent"
         android:textSize="25dp"
         android:text="Late Shakeena" />
 

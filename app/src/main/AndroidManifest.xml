@@ -23,9 +23,33 @@
             android:name=".MainActivity"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GFMActivity" />
-        <activity android:name=".FBFActivity" />
-        <activity android:name=".ChildActivity1"></activity>
+        <activity
+            android:name=".GFMActivity"
+            android:label="" />
+        <activity
+            android:name=".FBFActivity"
+            android:label="" />
+        <activity
+            android:name=".ChildActivity1"
+            android:label=""
+            android:parentActivityName=".FBFActivity" />
+        <activity
+            android:name=".ChildsActivity2"
+            android:label=""
+            android:parentActivityName=".FBFActivity" />
+        <activity
+            android:name=".ChildsActivity3"
+            android:label=""
+            android:parentActivityName=".FBFActivity"></activity>
+        <activity
+            android:name=".ChildsActivity4"
+            android:label=""
+            android:parentActivityName=".FBFActivity"></activity>
+        <activity android:name=".ChildsActivity5"
+            android:label=""
+            android:parentActivityName=".FBFActivity">
+
+        </activity>
     </application>
 
 </manifest>
